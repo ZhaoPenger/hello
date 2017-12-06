@@ -54,6 +54,7 @@
     [buttn setBackgroundColor:[UIColor orangeColor]];
     [self.view addSubview:buttn];
     
+<<<<<<< HEAD
     UIButton *buttn2 = [UIButton buttonWithType:UIButtonTypeCustom];
     [buttn2 setFrame:CGRectMake(200, 100, 100, 100)];
     [buttn2 setBackgroundColor:[UIColor redColor]];
@@ -64,6 +65,8 @@
     [buttn3 setBackgroundColor:[UIColor blackColor]];
     [self.view addSubview:buttn3];
     
+=======
+>>>>>>> parent of 1c5f6a0... 创建另一个button
 //    earnMoneyView=[[EarnMoneyView alloc]initWithFrame:CGRectMake(10, button.frame.size.height+button.frame.origin.y+10, self.view.frame.size.width-20, 50) percent:8];
 //    earnMoneyView.delegate=self;
 //    [self.view addSubview:earnMoneyView];
