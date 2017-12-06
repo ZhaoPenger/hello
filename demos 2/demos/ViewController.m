@@ -59,9 +59,20 @@
     [buttn2 setBackgroundColor:[UIColor redColor]];
     [self.view addSubview:buttn2];
     
+<<<<<<< HEAD
     earnMoneyView=[[EarnMoneyView alloc]initWithFrame:CGRectMake(10, button.frame.size.height+button.frame.origin.y+10, self.view.frame.size.width-20, 50) percent:8];
     earnMoneyView.delegate=self;
     [self.view addSubview:earnMoneyView];
+=======
+    UIButton *buttn3 = [UIButton buttonWithType:UIButtonTypeCustom];
+    [buttn3 setFrame:CGRectMake(200, 200, 100, 100)];
+    [buttn3 setBackgroundColor:[UIColor blackColor]];
+    [self.view addSubview:buttn3];
+    
+//    earnMoneyView=[[EarnMoneyView alloc]initWithFrame:CGRectMake(10, button.frame.size.height+button.frame.origin.y+10, self.view.frame.size.width-20, 50) percent:8];
+//    earnMoneyView.delegate=self;
+//    [self.view addSubview:earnMoneyView];
+>>>>>>> 5f8f262700c0ebf514499b95ebb1a63a7e77f460
     
 }
 
