@@ -46,7 +46,6 @@
     [button addTarget:self action:@selector(buttonClciked) forControlEvents:UIControlEventTouchUpInside];
     [self addSubview:button];
     
-    
     self.imageView=[[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 0, frame.size.height)];
     self.imageView.backgroundColor=[UIColor redColor];
     self.imageView.layer.borderColor=[UIColor redColor].CGColor;
