@@ -35,20 +35,24 @@
 -(void)createfanFavouriteFBV
 {
     
-//    _tableView=[[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) style:UITableViewStyleGrouped];
-//    _tableView.delegate=self;
-//    _tableView.dataSource=self;
-//    [self.view addSubview:_tableView];
-//    
-//    
-//    
-// UIButton *button=[UIButton buttonWithType:UIButtonTypeCustom];
-//    button.frame=CGRectMake(10, 300, 20, 20);
-//    [button setTitle:@"title" forState:UIControlStateNormal];
-//    button.backgroundColor=[UIColor orangeColor];
-//    [button addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
-//    [self.view addSubview:button];
+    _tableView=[[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) style:UITableViewStyleGrouped];
+    _tableView.delegate=self;
+    _tableView.dataSource=self;
+    [self.view addSubview:_tableView];
+    
+    
+    
+ UIButton *button=[UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame=CGRectMake(10, 300, 20, 20);
+    [button setTitle:@"title" forState:UIControlStateNormal];
+    button.backgroundColor=[UIColor orangeColor];
+    [button addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
   
+    UIButton *buttn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [buttn setFrame:CGRectMake(100, 100, 100, 100)];
+    [buttn setBackgroundColor:[UIColor orangeColor]];
+    [self.view addSubview:buttn];
     
 //    earnMoneyView=[[EarnMoneyView alloc]initWithFrame:CGRectMake(10, button.frame.size.height+button.frame.origin.y+10, self.view.frame.size.width-20, 50) percent:8];
 //    earnMoneyView.delegate=self;
