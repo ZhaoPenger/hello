@@ -42,22 +42,22 @@
     
     
     
- UIButton *button=[UIButton buttonWithType:UIButtonTypeCustom];
-    button.frame=CGRectMake(10, 300, 20, 20);
-    [button setTitle:@"title" forState:UIControlStateNormal];
-    button.backgroundColor=[UIColor orangeColor];
-    [button addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:button];
-  
-    UIButton *buttn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [buttn setFrame:CGRectMake(100, 100, 100, 100)];
-    [buttn setBackgroundColor:[UIColor orangeColor]];
-    [self.view addSubview:buttn];
-    
-    UIButton *buttn2 = [UIButton buttonWithType:UIButtonTypeCustom];
-    [buttn2 setFrame:CGRectMake(200, 100, 100, 100)];
-    [buttn2 setBackgroundColor:[UIColor redColor]];
-    [self.view addSubview:buttn2];
+// UIButton *button=[UIButton buttonWithType:UIButtonTypeCustom];
+//    button.frame=CGRectMake(10, 300, 20, 20);
+//    [button setTitle:@"title" forState:UIControlStateNormal];
+//    button.backgroundColor=[UIColor orangeColor];
+//    [button addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
+//    [self.view addSubview:button];
+//  
+//    UIButton *buttn = [UIButton buttonWithType:UIButtonTypeCustom];
+//    [buttn setFrame:CGRectMake(100, 100, 100, 100)];
+//    [buttn setBackgroundColor:[UIColor orangeColor]];
+//    [self.view addSubview:buttn];
+//    
+//    UIButton *buttn2 = [UIButton buttonWithType:UIButtonTypeCustom];
+//    [buttn2 setFrame:CGRectMake(200, 100, 100, 100)];
+//    [buttn2 setBackgroundColor:[UIColor redColor]];
+//    [self.view addSubview:buttn2];
     
 //    UIButton *buttn3 = [UIButton buttonWithType:UIButtonTypeCustom];
 //    [buttn3 setFrame:CGRectMake(200, 200, 100, 100)];
