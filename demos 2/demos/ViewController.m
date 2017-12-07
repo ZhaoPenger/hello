@@ -49,7 +49,22 @@
     [button addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
   
+    UIButton *buttn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [buttn setFrame:CGRectMake(100, 100, 100, 100)];
+    [buttn setBackgroundColor:[UIColor orangeColor]];
+    [self.view addSubview:buttn];
     
+    UIButton *buttn2 = [UIButton buttonWithType:UIButtonTypeCustom];
+    [buttn2 setFrame:CGRectMake(200, 100, 100, 100)];
+    [buttn2 setBackgroundColor:[UIColor redColor]];
+    [self.view addSubview:buttn2];
+    
+    UIButton *buttn3 = [UIButton buttonWithType:UIButtonTypeCustom];
+    [buttn3 setFrame:CGRectMake(200, 200, 100, 100)];
+    [buttn3 setBackgroundColor:[UIColor blackColor]];
+    [self.view addSubview:buttn3];
+    
+
 //    earnMoneyView=[[EarnMoneyView alloc]initWithFrame:CGRectMake(10, button.frame.size.height+button.frame.origin.y+10, self.view.frame.size.width-20, 50) percent:8];
 //    earnMoneyView.delegate=self;
 //    [self.view addSubview:earnMoneyView];
